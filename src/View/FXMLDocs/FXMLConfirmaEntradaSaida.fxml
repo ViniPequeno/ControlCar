@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLConfirmaEntradaSaidaController" stylesheets="@theme.css">
+   <children>
+      <Label fx:id="titulo" alignment="CENTER" layoutX="222.0" layoutY="27.0" text="Label">
+         <font>
+            <Font name="MS Outlook" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="numero" layoutX="89.0" layoutY="153.0" text="Número do Registro:" />
+      <Label fx:id="placa" layoutX="330.0" layoutY="89.0" text="Placa:" />
+      <JFXComboBox fx:id="nome" layoutX="89.0" layoutY="89.0" />
+      <Label fx:id="data" layoutX="222.0" layoutY="199.0" text="Data:" />
+      <Label fx:id="hora" layoutX="301.0" layoutY="199.0" text="Hora:" />
+      <JFXTextArea fx:id="obs" layoutX="39.0" layoutY="231.0" prefHeight="121.0" prefWidth="422.0" style="-fx-border-color: orange;"/>
+      <JFXRadioButton fx:id="obsRadio" layoutX="381.0" layoutY="199.0" text="Obsevação" />
+      <JFXButton fx:id="confirma" layoutX="216.0" layoutY="361.0" text="Confirmar" />
+      <Label fx:id="funcionario" layoutX="330.0" layoutY="153.0" text="Porteiro: " />
+   </children>
+</Pane>

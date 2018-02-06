@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@theme.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLTelaLoginController">
+    <children>
+      <TextField fx:id="mat" layoutX="121.0" layoutY="232.0" prefHeight="25.0" prefWidth="136.0" />
+      <PasswordField fx:id="senha" layoutX="121.0" layoutY="271.0" prefHeight="25.0" prefWidth="136.0" />
+      <Button fx:id="finalizar" layoutX="120.0" layoutY="336.0" mnemonicParsing="false" text="Finalizar" />
+      <ImageView fitHeight="172.0" fitWidth="177.0" layoutX="64.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagens/userPrin.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="41.0" layoutY="237.0" text="Matrícula">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="276.0" text="Senha">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

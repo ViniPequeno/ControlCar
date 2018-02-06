@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #F0FFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="View.Controller.FXMLFuncionarioInforController" stylesheets="@theme.css">
+   <children>
+      <ImageView fx:id="imagem" fitHeight="160.0" fitWidth="200.0" layoutX="75.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="nome" layoutX="84.0" layoutY="242.0" text="Nome: " />
+      <Label fx:id="mat" layoutX="84.0" layoutY="278.0" text="Matrícula: " />
+      <Label fx:id="cargo" layoutX="84.0" layoutY="315.0" text="Cargo: " />
+      <Label fx:id="email" layoutX="84.0" layoutY="353.0" text="E-mail:" />
+      <Label fx:id="telFixo" layoutX="84.0" layoutY="394.0" text="Telefone Fixo:" />
+      <Label fx:id="telCelular" layoutX="84.0" layoutY="435.0" text="Telefone Celular:" />
+   </children>
+</AnchorPane>

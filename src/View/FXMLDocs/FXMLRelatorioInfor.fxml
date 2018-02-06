@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane stylesheets="@theme.css" id="AnchorPane" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #F0FFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="View.Controller.FXMLRelatorioInforController">
+   <children>
+      <JFXTextArea fx:id="obs" editable="false" layoutX="50.0" layoutY="224.0" prefWidth="400.0" style="-fx-background-color: white;" />
+      <Label fx:id="placa" layoutX="136.0" layoutY="60.0" text="Placa:" />
+      <Label fx:id="prop" layoutX="306.0" layoutY="60.0" text="Proprietário: " />
+      <Label fx:id="porteiroEn" layoutX="57.0" layoutY="106.0" text="Porteiro da Entrada: " />
+      <Label fx:id="dataHora1" layoutX="36.0" layoutY="155.0" text="Data e Hora de Entrada: " />
+      <Label fx:id="porteiroSa" layoutX="278.0" layoutY="106.0" text="Porteiro da Saída: " />
+      <Label fx:id="dataHora2" layoutX="257.0" layoutY="155.0" text="Data e Hora de Saída: " />
+      <Label layoutX="156.0" layoutY="14.0" text="Informações do Relatório">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@theme.css" id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLInserirVeiculoController">
+   <children>
+      <Label layoutX="242.0" layoutY="43.0" text="Inserir Veículo">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="placa" labelFloat="true" layoutX="107.0" layoutY="103.0" promptText="Placa" />
+      <JFXTextField fx:id="cor" labelFloat="true" layoutX="341.0" layoutY="103.0" promptText="Cor" />
+      <JFXTextField fx:id="modelo" labelFloat="true" layoutX="107.0" layoutY="175.0" prefHeight="25.0" prefWidth="200.0" promptText="Modelo" />
+      <JFXTextField fx:id="marca" labelFloat="true" layoutX="341.0" layoutY="175.0" promptText="Marca" />
+      <JFXTextField fx:id="anoFabri" labelFloat="true" layoutX="107.0" layoutY="258.0" promptText="Ano de Fabricação" />
+      <JFXTextField fx:id="funcionario" labelFloat="true" layoutX="341.0" layoutY="258.0" promptText="Funcionário (matricula)" />
+      <JFXButton fx:id="inserir" layoutX="250.0" layoutY="330.0" prefHeight="25.0" prefWidth="100.0" text="Inserir" />
+   </children>
+</AnchorPane>

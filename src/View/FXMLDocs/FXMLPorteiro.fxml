@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@theme.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLPorteiroController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="240.0">
+         <children>
+            <Pane prefHeight="500.0" prefWidth="240.0" style="-fx-background-color: #E0EEEE;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="65.0" prefWidth="240.0" text="Control Car">
+                     <font>
+                        <Font name="MS Outlook" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imagem" fitHeight="160.0" fitWidth="200.0" layoutX="23.0" layoutY="65.0" pickOnBounds="true" preserveRatio="false">
+                     <image>
+                        <Image url="@../../Imagens/man-user.png" />
+                     </image>
+                  </ImageView>
+                  <VBox layoutY="250.0" prefHeight="246.0" prefWidth="240.0">
+                     <children>
+                        <Label alignment="BASELINE_CENTER" prefHeight="40.0" prefWidth="240.0" text="NAVEGAÇÃO">
+                           <font>
+                              <Font name="Serif Regular" size="12.0" />
+                           </font>
+                        </Label>
+                        <JFXButton fx:id="btnEntrada" alignment="BASELINE_LEFT" prefHeight="50.0" prefWidth="240.0" text="   Entrada de Veículos">
+                           <font>
+                              <Font name="Monospaced Regular" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Imagens/right-arrow.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btnSaida" alignment="BASELINE_LEFT" prefHeight="50.0" prefWidth="240.0" text="   Saída de Veículos">
+                           <font>
+                              <Font name="Monospaced Regular" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Imagens/left-arrow.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btnAlterarDados" alignment="BASELINE_LEFT" prefHeight="50.0" prefWidth="240.0" text="   Alterar Dados">
+                           <font>
+                              <Font name="Monospaced Regular" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Imagens/alterar.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btnSair" alignment="BASELINE_LEFT" prefHeight="50.0" prefWidth="240.0" text="   Sair">
+                           <font>
+                              <Font name="Monospaced Regular" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Imagens/exit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="stack" layoutX="240.0" prefHeight="500.0" prefWidth="560.0" style="-fx-background-color: #F0FFFF;" />
+   </children>
+</AnchorPane>

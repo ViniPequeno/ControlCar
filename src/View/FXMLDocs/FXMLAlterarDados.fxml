@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #F0FFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="View.Controller.FXMLAlterarDadosController" stylesheets="@theme.css">
+   <children>
+      <Label layoutX="132.0" layoutY="42.0" text="Alterar Dados do Administrador">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="121.0" text="Matrícula" />
+      <Label layoutX="134.0" layoutY="167.0" text="Nome" />
+      <Label layoutX="134.0" layoutY="214.0" text="Senha" />
+      <TextField fx:id="mat" layoutX="184.0" layoutY="117.0" style="-fx-background-color: white;"/>
+      <TextField fx:id="nome" layoutX="184.0" layoutY="163.0" style="-fx-background-color: white;"/>
+      <PasswordField fx:id="senha" layoutX="184.0" layoutY="210.0" />
+      <TextField fx:id="senhaV" layoutX="184.0" layoutY="210.0" />
+      <RadioButton fx:id="mostrar" layoutX="353.0" layoutY="214.0" mnemonicParsing="false" text="Mostrar Senha" />
+      <Button fx:id="alterar" layoutX="224.0" layoutY="276.0" mnemonicParsing="false" text="Alterar" />
+   </children>
+</AnchorPane>

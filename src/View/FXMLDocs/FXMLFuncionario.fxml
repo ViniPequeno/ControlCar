@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="560.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLFuncionarioController" stylesheets="@theme.css">
+   <children>
+      <JFXTextField fx:id="txtPesquisar" labelFloat="true" layoutX="53.0" layoutY="66.0" prefHeight="25.0" prefWidth="350.0" promptText="Pesquisar Funcionário" />
+      <TableView fx:id="table" layoutX="53.0" layoutY="137.0" prefHeight="280.0" prefWidth="350.0">
+         <columns>
+            <TableColumn fx:id="colunaMat" prefWidth="114.0" text="Matrícula" />
+            <TableColumn fx:id="colunaNome" prefWidth="158.0" text="Nome" />
+            <TableColumn fx:id="colunaCargo" minWidth="0.0" prefWidth="77.0" text="Cargo" />
+         </columns>
+      </TableView>
+      <VBox layoutX="417.0" layoutY="150.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <JFXButton fx:id="btnInserir" prefHeight="25.0" prefWidth="100.0" text="Inserir" />
+            <Separator prefHeight="10.0" prefWidth="200.0" visible="false" />
+            <JFXButton fx:id="btnExcluir" prefHeight="25.0" prefWidth="100.0" text="Excluir" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLAlterarDadosFuncController" stylesheets="@theme.css">
+   <children>
+      <Label layoutX="145.0" layoutY="44.0" text="Alterar Dados">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="nome" labelFloat="true" layoutX="86.0" layoutY="109.0" prefHeight="25.0" prefWidth="200.0" promptText="Nome"/>
+      <JFXTextField fx:id="mat" labelFloat="true" layoutX="86.0" layoutY="162.0" promptText="Matrícula"/>
+      <JFXTextField fx:id="email" labelFloat="true" layoutX="86.0" layoutY="214.0" prefHeight="25.0" prefWidth="200.0" promptText="E-mail"/>
+      <JFXRadioButton fx:id="mostrar" layoutX="253.0" layoutY="276.0" text="Mostrar Senha" />
+      <JFXPasswordField fx:id="senha" labelFloat="true" layoutX="86.0" layoutY="272.0" promptText="Senha"/>
+      <JFXTextField fx:id="senhaV" labelFloat="true" layoutX="86.0" layoutY="272.0" promptText="Senha" />
+      <JFXTextField fx:id="telFixo" labelFloat="true" layoutX="86.0" layoutY="325.0" promptText="Telefone Fixo" />
+      <JFXTextField fx:id="telCelular" labelFloat="true" layoutX="86.0" layoutY="380.0" promptText="Telefone Celular"/>
+      <JFXButton fx:id="alterar" layoutX="175.0" layoutY="448.0" text="Alterar" />
+      <JFXButton fx:id="trocar" layoutX="263.0" layoutY="393.0" text="Escolher Imagem" />
+   </children>
+</AnchorPane>

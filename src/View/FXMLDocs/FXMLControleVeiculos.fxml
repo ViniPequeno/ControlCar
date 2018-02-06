@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="560.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller.FXMLControleVeiculosController" stylesheets="@theme.css">
+   <children>
+      <Label layoutX="196.0" layoutY="47.0" text="Veículos Disponíveis">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="105.0" layoutY="125.0" prefHeight="250.0" prefWidth="350.0">
+        <columns>
+          <TableColumn fx:id="placa" prefWidth="97.0" text="Placa" />
+          <TableColumn fx:id="marca" prefWidth="136.0" text="Marca" />
+          <TableColumn fx:id="modelo" prefWidth="116.0" text="Modelo" />
+          <TableColumn fx:id="cor" prefWidth="80.0" text="Cor" />
+        </columns>
+      </TableView>
+      <Label fx:id="label" layoutX="58.0" layoutY="403.0" text="Clique duas vezes no veículo que você deseja realizar a operação">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font></Label>
+   </children>
+</Pane>
